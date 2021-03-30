@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"MANAGE LEARNING CONTENT\"}\n  (Session info: chrome=85.0.4183.121)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x005ED383+3134339]\n\tOrdinal0 [0x004DA171+2007409]\n\tOrdinal0 [0x0037AEE8+569064]\n\tOrdinal0 [0x0030A72F+108335]\n\tOrdinal0 [0x00329DB0+236976]\n\tOrdinal0 [0x0031EC90+191632]\n\tOrdinal0 [0x00328773+231283]\n\tOrdinal0 [0x0031EB0B+191243]\n\tOrdinal0 [0x00302E77+77431]\n\tOrdinal0 [0x00303E3E+81470]\n\tOrdinal0 [0x00303DC9+81353]\n\tOrdinal0 [0x004F0CD9+2100441]\n\tGetHandleVerifier [0x0075B75A+1396954]\n\tGetHandleVerifier [0x0075B3D9+1396057]\n\tGetHandleVerifier [0x00767126+1444518]\n\tGetHandleVerifier [0x0075BCE8+1398376]\n\tOrdinal0 [0x004E7F51+2064209]\n\tOrdinal0 [0x004F22EB+2106091]\n\tOrdinal0 [0x004F2411+2106385]\n\tOrdinal0 [0x005049C4+2181572]\n\tBaseThreadInitThunk [0x75A96359+25]\n\tRtlGetAppContainerNamedObjectPath [0x775D7C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x775D7BF4+180]\n"
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "55ccc2969877e4fd",
+  "name" : "positive workflow",
+  "time" : {
+    "start" : 1601794508237,
+    "stop" : 1601794557907,
+    "duration" : 49670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

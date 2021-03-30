@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testlogin",
+    "children" : [ {
+      "name" : "positive workflow",
+      "uid" : "55ccc2969877e4fd",
+      "parentUid" : "c8929e698cebffd4e520c733d01b96d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601794508237,
+        "stop" : 1601794557907,
+        "duration" : 49670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "c8929e698cebffd4e520c733d01b96d0"
+  } ]
+}
