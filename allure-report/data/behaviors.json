@@ -2,17 +2,30 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "positive workflow",
-    "uid" : "55ccc2969877e4fd",
+    "name" : "Login",
+    "uid" : "623c4ab95d84aa2d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1601794508237,
-      "stop" : 1601794557907,
-      "duration" : 49670
+      "start" : 1617151625385,
+      "stop" : 1617151634091,
+      "duration" : 8706
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-85.0.4183.121" ]
+    "parameters" : [ "chrome-89.0.4389.90" ]
+  }, {
+    "name" : "Medical Bot Test",
+    "uid" : "ac7dbb46a0a82656",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1617151634091,
+      "stop" : 1617151649653,
+      "duration" : 15562
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-89.0.4389.90" ]
   } ]
 }

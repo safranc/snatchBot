@@ -12,19 +12,17 @@ class LoginPage {
         this.password = '[name="password"]';
         this.login = '//button[@type="submit"]';
         this.title = '//h2[contains(.,"Dashboard")]'; 
-        this.profileName = '.ellipsis-name'; 
-         
+        this.profileName = '.ellipsis-name';          
     }
 
     assertLogin () {
+        //Logging into SnatchBot
         $(this.email).setValue(loginData.username);
         $(this.password).setValue(loginData.password);
         $(this.login).click();
-        //expect(browser).toHaveTitle('Dashboard - SnatchBot');
-       // expect($(this.title).getText()).to.equal("Dashboard"); 
-        expect($(this.profileName).getText()).to.equal(verbiage.profileName);  
-         
-
+        
+       // asserting ProfileName
+        expect($(this.profileName).getText()).to.equal(verbiage.profileName);
     }
 }
 const instance = new LoginPage();

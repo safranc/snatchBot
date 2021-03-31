@@ -1,10 +1,20 @@
 [ {
-  "uid" : "55ccc2969877e4fd",
-  "name" : "positive workflow",
+  "uid" : "623c4ab95d84aa2d",
+  "name" : "Login",
   "time" : {
-    "start" : 1601794508237,
-    "stop" : 1601794557907,
-    "duration" : 49670
+    "start" : 1617151625385,
+    "stop" : 1617151634091,
+    "duration" : 8706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac7dbb46a0a82656",
+  "name" : "Medical Bot Test",
+  "time" : {
+    "start" : 1617151634091,
+    "stop" : 1617151649653,
+    "duration" : 15562
   },
   "status" : "passed",
   "severity" : "normal"

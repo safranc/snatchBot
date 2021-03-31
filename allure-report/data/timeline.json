@@ -2,202 +2,50 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Medical Bot Test",
+      "uid" : "ac7dbb46a0a82656",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617151634091,
+        "stop" : 1617151649653,
+        "duration" : 15562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    }, {
+      "name" : "Login",
+      "uid" : "623c4ab95d84aa2d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617151625385,
+        "stop" : 1617151634091,
+        "duration" : 8706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "positive workflow",
-      "uid" : "a19ee235e15a0aba",
+      "name" : "Login",
+      "uid" : "add21c2e088b2392",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1601794316072,
-        "stop" : 1601794366095,
-        "duration" : 50023
+        "start" : 1617151625380,
+        "stop" : 1617151634587,
+        "duration" : 9207
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "ea5923cc7255c50a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601792439211,
-        "stop" : 1601792449147,
-        "duration" : 9936
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "735ac008c7166a26",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601787035705,
-        "stop" : 1601787066062,
-        "duration" : 30357
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "55ccc2969877e4fd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1601794508237,
-        "stop" : 1601794557907,
-        "duration" : 49670
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "824979b04bd1972e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601786802369,
-        "stop" : 1601786816299,
-        "duration" : 13930
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "ac6de6af09794ef2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601793222807,
-        "stop" : 1601793232922,
-        "duration" : 10115
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "4ee7bba4693887a2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601791606172,
-        "stop" : 1601791616192,
-        "duration" : 10020
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "b3dcff950a5bcb75",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601791052624,
-        "stop" : 1601791061665,
-        "duration" : 9041
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "5df23a2b42260dea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601790863285,
-        "stop" : 1601790872816,
-        "duration" : 9531
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "73b32b48fa9d367a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601790922909,
-        "stop" : 1601790932018,
-        "duration" : 9109
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "1d02f32e7d8a2238",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601786935716,
-        "stop" : 1601786961460,
-        "duration" : 25744
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "bc05cdca6498b1cf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1601787475979,
-        "stop" : 1601787525824,
-        "duration" : 49845
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "3a19c115558c5945",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1601781995191,
-        "stop" : 1601782011918,
-        "duration" : 16727
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "7af1b778e7eed4dc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601787264405,
-        "stop" : 1601787295086,
-        "duration" : 30681
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
-    }, {
-      "name" : "positive workflow",
-      "uid" : "6d8673d36b7ff6e9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1601792003452,
-        "stop" : 1601792013036,
-        "duration" : 9584
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
+      "parameters" : [ "chrome-89.0.4389.90" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ]

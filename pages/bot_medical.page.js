@@ -20,31 +20,31 @@ class HealthBotPage {
     }
 
     assertHealthBot () {
+        //Testing the Medical Bots
         $(this.myBots).click();
         $(this.healthBot).click();
         $(this.testBot).click();
         browser.pause('3000');
         browser.switchToFrame(0);
+        // Conversations in BotWindow
         $(this.userText1).click();
         $(this.userText1).setValue(verbiage.userValue1);
         $(this.sendBtn).click();
-
-
-        //expect(browser).toHaveTitle('Dashboard - SnatchBot');
-       // expect($(this.title).getText()).to.equal("Dashboard"); 
+        
+       // Asserting BotResponse 1 - Explain Chatbots 
         expect($(this.botAnswer1).getText()).to.equal(verbiage.botResponse1);
         browser.pause('3000');
+        // Asserting BotResponse 2 - Select options(Make,Cancel) 
         $(this.userClick).click();
         $(this.botAnswer2).scrollIntoView();
-        expect($(this.botAnswer2).getText()).to.contain(verbiage.botResponse2);
-       
+        expect($(this.botAnswer2).getText()).to.contain(verbiage.botResponse2);               
         browser.pause('3000');
+        // Asserting BotResponse 3 - Thanks) 
         $(this.userText1).click();
         $(this.userText2).setValue(verbiage.userValue2);
         $(this.sendBtn).click();
         $(this.botAnswer3).scrollIntoView();
-        expect($(this.botAnswer3).getText()).to.equal(verbiage.botResponse3);
-                                                       
+        expect($(this.botAnswer3).getText()).to.equal(verbiage.botResponse3);                                                
 
     }
 }

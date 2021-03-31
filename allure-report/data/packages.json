@@ -2,21 +2,34 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testlogin",
+    "name" : "SnatchBot",
     "children" : [ {
-      "name" : "positive workflow",
-      "uid" : "55ccc2969877e4fd",
-      "parentUid" : "cf81477444237b9d6d5f4f80d10bbedb",
+      "name" : "Login",
+      "uid" : "623c4ab95d84aa2d",
+      "parentUid" : "834850849d03a4c318fa85310afbeb28",
       "status" : "passed",
       "time" : {
-        "start" : 1601794508237,
-        "stop" : 1601794557907,
-        "duration" : 49670
+        "start" : 1617151625385,
+        "stop" : 1617151634091,
+        "duration" : 8706
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-85.0.4183.121" ]
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    }, {
+      "name" : "Medical Bot Test",
+      "uid" : "ac7dbb46a0a82656",
+      "parentUid" : "834850849d03a4c318fa85310afbeb28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617151634091,
+        "stop" : 1617151649653,
+        "duration" : 15562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
     } ],
-    "uid" : "cf81477444237b9d6d5f4f80d10bbedb"
+    "uid" : "834850849d03a4c318fa85310afbeb28"
   } ]
 }

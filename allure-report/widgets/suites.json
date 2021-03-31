@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "c8929e698cebffd4e520c733d01b96d0",
-    "name" : "testlogin",
+    "uid" : "d27bbc1488ac3e0ee4bba847350f8310",
+    "name" : "SnatchBot",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }
