@@ -25,7 +25,9 @@ class HealthBotPage {
         $(this.healthBot).click();
         $(this.testBot).click();
         browser.pause('3000');
+        
         browser.switchToFrame(0);
+        $(this.userText1).waitForClickable({ timeout: 3000 });
         // Conversations in BotWindow
         $(this.userText1).click();
         $(this.userText1).setValue(verbiage.userValue1);

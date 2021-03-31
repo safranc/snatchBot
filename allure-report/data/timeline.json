@@ -5,26 +5,26 @@
     "name" : "0-1",
     "children" : [ {
       "name" : "Medical Bot Test",
-      "uid" : "ac7dbb46a0a82656",
+      "uid" : "1a31ba71a16729c3",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1617151634091,
-        "stop" : 1617151649653,
-        "duration" : 15562
+        "start" : 1617211161825,
+        "stop" : 1617211179310,
+        "duration" : 17485
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-89.0.4389.90" ]
     }, {
       "name" : "Login",
-      "uid" : "623c4ab95d84aa2d",
+      "uid" : "352acb35ec95239a",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1617151625385,
-        "stop" : 1617151634091,
-        "duration" : 8706
+        "start" : 1617211152328,
+        "stop" : 1617211161824,
+        "duration" : 9496
       },
       "flaky" : false,
       "newFailed" : false,
@@ -35,13 +35,65 @@
     "name" : "0-0",
     "children" : [ {
       "name" : "Login",
-      "uid" : "add21c2e088b2392",
+      "uid" : "2a014806d183b6b2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1617151625380,
-        "stop" : 1617151634587,
-        "duration" : 9207
+        "start" : 1617211152329,
+        "stop" : 1617211162985,
+        "duration" : 10656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    }, {
+      "name" : "Medical Bot Test",
+      "uid" : "877cdb292cbf134d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617202242604,
+        "stop" : 1617202259762,
+        "duration" : 17158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    }, {
+      "name" : "Login",
+      "uid" : "b1c2e13073e40e23",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617202682490,
+        "stop" : 1617202692819,
+        "duration" : 10329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    }, {
+      "name" : "Medical Bot Test",
+      "uid" : "777cf077f9fb2aca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617202692821,
+        "stop" : 1617202711705,
+        "duration" : 18884
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    }, {
+      "name" : "Login",
+      "uid" : "216fd25c4f28776c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617202233277,
+        "stop" : 1617202242603,
+        "duration" : 9326
       },
       "flaky" : false,
       "newFailed" : false,

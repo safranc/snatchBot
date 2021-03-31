@@ -5,26 +5,26 @@
     "name" : "SnatchBot",
     "children" : [ {
       "name" : "Login",
-      "uid" : "623c4ab95d84aa2d",
+      "uid" : "2a014806d183b6b2",
       "parentUid" : "d27bbc1488ac3e0ee4bba847350f8310",
       "status" : "passed",
       "time" : {
-        "start" : 1617151625385,
-        "stop" : 1617151634091,
-        "duration" : 8706
+        "start" : 1617211152329,
+        "stop" : 1617211162985,
+        "duration" : 10656
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-89.0.4389.90" ]
     }, {
       "name" : "Medical Bot Test",
-      "uid" : "ac7dbb46a0a82656",
+      "uid" : "1a31ba71a16729c3",
       "parentUid" : "d27bbc1488ac3e0ee4bba847350f8310",
       "status" : "passed",
       "time" : {
-        "start" : 1617151634091,
-        "stop" : 1617151649653,
-        "duration" : 15562
+        "start" : 1617211161825,
+        "stop" : 1617211179310,
+        "duration" : 17485
       },
       "flaky" : false,
       "newFailed" : false,
