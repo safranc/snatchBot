@@ -16,4 +16,5 @@ npm run dev bot_medical.spec.js
 **To view Allure reports in local**
 
 npx allure generate --clean
+
 npx allure open
